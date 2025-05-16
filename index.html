@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi web personal - Alexander Caceres</title>
+    <!-- Enlace a Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Iconos de Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+    />
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/estilos.css" />
+  </head>
+  <body>
+    <!-- Fondo decorativo -->
+    <div class="fondo-decorativo"></div>
+    <!-- Fin fondo decorativo -->
+
+    <!-- Contenido principal -->
+    <div class="contenedor-principal">
+      <div class="row justify-content-center">
+        <!-- Tarjeta de perfil -->
+        <div class="col-12 col-md-4 mb-4">
+          <div class="tarjeta-perfil card text-center shadow">
+            <div class="card-body">
+              <img
+                src="img/perfil.jpg"
+                alt="Alexander Caceres - foto de perfil"
+                class="foto-perfil mb-2"
+              />
+              <h2 class="h5 mb-0 fw-bold">Alexander Caceres</h2>
+              <div class="text-muted mb-2">
+                Estudiante de Análisis en Sistemas
+              </div>
+              <div class="mb-2">Estas son mis redes sociales</div>
+              <div class="mb-2 fs-4">
+                <a
+                  href="https://www.facebook.com/share/16KCEjPff7/"
+                  target="_blank"
+                  class="mx-1 text-primary"
+                  title="Facebook"
+                  ><i class="bi bi-facebook"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/alexx1gou"
+                  target="_blank"
+                  class="mx-1 text-danger"
+                  title="Instagram"
+                  ><i class="bi bi-instagram"></i
+                ></a>
+              </div>
+              <div class="mb-2">
+                <small
+                  >Contacto:
+                  <a href="mailto:CaceresAlex2912@gmail.com"
+                    >CaceresAlex2912@gmail.com</a
+                  ></small
+                >
+              </div>
+            </div>
+            <!-- Fin card-body -->
+          </div>
+          <!-- Fin tarjeta-perfil card -->
+        </div>
+        <!-- Fin col-12 col-md-4 mb-4 -->
+
+        <!-- Presentación y acordeón -->
+        <div class="col-12 col-md-8">
+          <div class="card sombra-grande p-4">
+            <h1 class="h4 fw-bold mb-3">¡Hola! Soy Alexander</h1>
+            <p>
+              Soy estudiante de Análisis en Sistemas en la UNICAN. Me gusta
+              aprender cosas nuevas y mejorar mis habilidades. Aquí te cuento un
+              poco más sobre mí:
+            </p>
+
+            <!-- Acordeón -->
+            <div class="accordion" id="acordeonPersonal">
+              <!-- Habilidades -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="encabezadoHabilidades">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#cuerpoHabilidades"
+                    aria-expanded="true"
+                    aria-controls="cuerpoHabilidades"
+                  >
+                    Mis habilidades
+                  </button>
+                </h2>
+                <div
+                  id="cuerpoHabilidades"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="encabezadoHabilidades"
+                  data-bs-parent="#acordeonPersonal"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Me estoy formando como Analista en Sistemas</li>
+                      <li>Estoy aprendiendo Java, HTML y JavaScript</li>
+                      <li>Me gusta aprender por mi cuenta</li>
+                      <li>Me interesa la tecnología y el desarrollo web</li>
+                    </ul>
+                  </div>
+                  <!-- Fin accordion-body -->
+                </div>
+                <!-- Fin accordion-collapse collapse show -->
+              </div>
+              <!-- Fin accordion-item habilidades -->
+
+              <!-- Formación -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="encabezadoFormacion">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#cuerpoFormacion"
+                    aria-expanded="false"
+                    aria-controls="cuerpoFormacion"
+                  >
+                    Mi formación
+                  </button>
+                </h2>
+                <div
+                  id="cuerpoFormacion"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="encabezadoFormacion"
+                  data-bs-parent="#acordeonPersonal"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Bachiller en Ciencias Básicas (2023)</li>
+                      <li>
+                        Estudiante de Análisis en Sistemas desde 2024 en la
+                        UNICAN
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Fin accordion-body -->
+                </div>
+                <!-- Fin accordion-collapse collapse -->
+              </div>
+              <!-- Fin accordion-item formación -->
+
+              <!-- Pasatiempos -->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="encabezadoPasatiempos">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#cuerpoPasatiempos"
+                    aria-expanded="false"
+                    aria-controls="cuerpoPasatiempos"
+                  >
+                    Mis pasatiempos favoritos
+                  </button>
+                </h2>
+                <div
+                  id="cuerpoPasatiempos"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="encabezadoPasatiempos"
+                  data-bs-parent="#acordeonPersonal"
+                >
+                  <div class="accordion-body">
+                    <ul>
+                      <li>Me gusta desarrollar mis habilidades técnicas</li>
+                      <li>Disfruto aprender cada vez más sobre tecnología</li>
+                      <li>
+                        Me interesa explorar nuevas herramientas digitales
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Fin accordion-body -->
+                </div>
+                <!-- Fin accordion-collapse collapse -->
+              </div>
+              <!-- Fin accordion-item pasatiempos -->
+            </div>
+            <!-- Fin acordeón -->
+          </div>
+          <!-- Fin card sombra-grande p-4 -->
+        </div>
+        <!-- Fin col-12 col-md-8 -->
+
+        <!-- Sección: Carpetas de trabajos -->
+        <div class="col-12 mt-4">
+          <div class="card p-4 sombra-grande">
+            <h2 class="h5 fw-bold mb-3">Mi Carpeta de Trabajos</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+              <!-- Item 1 -->
+              <div class="col">
+                <div class="card h-100 text-center shadow-sm">
+                  <div class="card-body">
+                    <i
+                      class="bi bi-file-earmark-code-fill fs-1 text-primary"
+                    ></i>
+                    <h5 class="card-title mt-2">Ejercicios HTML</h5>
+                    <p class="card-text">
+                      Mis primeras prácticas con etiquetas, listas y enlaces.
+                    </p>
+                    <a
+                      href="/HTI09_Alexander_Caceres/proyectos_html/Tarea_SitioWeb.zip"
+                      download
+                      class="btn-descarga"
+                      >Descargar proyecto anterior</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <!-- Item 2 -->
+              <div class="col">
+                <div class="card h-100 text-center shadow-sm">
+                  <div class="card-body">
+                    <i class="bi bi-terminal-fill fs-1 text-success"></i>
+                    <h5 class="card-title mt-2">Programas en Java</h5>
+                    <p class="card-text">
+                      Pequeños programas que hice aprendiendo condicionales y
+                      bucles.
+                    </p>
+                    <a
+                      href="/HTI09_Alexander_Caceres/Java/HTI12_Financiera_AlexanderCaceres/"
+                      download
+                      class="btn btn-outline-success"
+                    >
+                      <i class="bi bi-download"></i> Descargar código Java
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- Item 3 -->
+              <div class="col">
+                <div class="card h-100 text-center shadow-sm">
+                  <div class="card-body">
+                    <i class="bi bi-journal-code fs-1 text-warning"></i>
+                    <h5 class="card-title mt-2">Notas de clase</h5>
+                    <p class="card-text">
+                      Resumen de temas importantes que vimos en el semestre.
+                    </p>
+                    <section id="descarga">
+                      <a
+                        href="/HTI09_Alexander_Caceres/docs/MisNotas.pdf"
+                        download
+                        class="btn-descarga"
+                        >Descargar PDF</a
+                      >
+                    </section>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fin row justify-content-center -->
+    </div>
+    <!-- Fin contenedor-principal -->
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
